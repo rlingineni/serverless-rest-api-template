@@ -8,12 +8,22 @@ You can swap our KoaJS for Express, or any other standard node.js library by twe
 
 ### API Setup
 
-Using this template
+Load Template
 ```
 serverless create --template-url "https://github.com/rlingineni/serverless-api/tree/main" --path ./api
 ```
 
-#### Testing Locally
+Use the API directory
+```
+cd api
+```
+
+Deploy API
+```
+serverless deploy
+```
+
+#### Test Locally
 Starts a local server at `localhost:8000`
 ```bash
 npm run start
