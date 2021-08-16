@@ -10,7 +10,7 @@ You can swap our KoaJS for Express, or any other standard node.js library by twe
 
 Using this template
 ```
-serverless create --template-url https://github.com/rlingineni/serverless-api/edit/main/ 
+serverless create --template-url https://github.com/rlingineni/serverless-api
 ```
 
 #### Testing Locally
