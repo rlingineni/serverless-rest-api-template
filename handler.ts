@@ -9,7 +9,7 @@ const app = new Koa();
 app.use(koaBody());
 
 // import routes from other files as necessary
-
+const router = new Router();
 
 router.get("/", (ctx, next) => {
   ctx.status = 200;
